@@ -9,7 +9,17 @@ Block diagram:
 
 ![Image](https://imagizer.imageshack.com/img923/5624/Z1NAQc.png)
 
-To implement this I used the DAC0808 8-bit digital to analog converter, an arduino nano (chinese knock-off board), an 74ls273 octal flip flop and an operational amplifier (TL072 or equivalent) for buffering. On the software side I based my code partly on [this](https://www.youtube.com/watch?v=nGfqwg_r5ig) video by RHelectronics and modified and added to it to work with the DAC0808.
+Implementation:
+--------------
+
+To implement this I used the DAC0808 8-bit digital to analog converter, an arduino nano (chinese knock-off board), an 74ls273 octal flip flop and an operational amplifier (TL072 or equivalent). On the software side I based my code partly on [this](https://www.youtube.com/watch?v=nGfqwg_r5ig) video by RHelectronics and modified and added to it to work with the DAC0808. The Flipflop is used to provide an extra layer of buffering to the arduino outputs since these can be noisy and mess with the DAC (or so I have heard so maybe its utterly unnecassary). The arduino ouputs go (after buffering) straight to the binary inputs of the DAC.
+
+Schematic:
+
+![image](https://imagizer.imageshack.com/img923/3563/q3PZ7V.png)
+
+Stripboard Layout:
+
 ![Image](https://imagizer.imageshack.com/img923/3299/A2sLox.png)
 
 Sources
