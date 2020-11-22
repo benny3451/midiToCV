@@ -38,6 +38,8 @@ The loopMidi channel is selected as midi input and the serial port associated wi
 
 Sources
 ------
-https://www.youtube.com/watch?v=nGfqwg_r5ig
-https://www.ti.com/lit/ds/symlink/dac0808.pdf?ts=1606046032558&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253Ddac0808
-https://www.ti.com/lit/ds/sdls090/sdls090.pdf?ts=1606050672047&ref_url=https%253A%252F%252Fwww.google.com%252F
+- https://www.youtube.com/watch?v=nGfqwg_r5ig  
+
+- https://www.ti.com/lit/ds/symlink/dac0808.pdf?ts=1606046032558&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253Ddac0808
+
+- https://www.ti.com/lit/ds/sdls090/sdls090.pdf?ts=1606050672047&ref_url=https%253A%252F%252Fwww.google.com%252F 
